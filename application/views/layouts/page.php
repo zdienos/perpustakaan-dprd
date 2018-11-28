@@ -5,7 +5,11 @@
 	<title>DPRD PROVINSI SULAWESI TENGAH</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/app.css') ?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/my.css') ?>">
+
+	<!--link rel="stylesheet" href="< ?php echo base_url('assets/bs-413/bootstrap.min.css') ?>"-->
+
+
+
 
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/font-awesome/css/font-awesome.min.css') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/owl.carousel/dist/assets/owl.carousel.min.css') ?>">
@@ -14,17 +18,15 @@
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/lightbox2/dist/css/lightbox.min.css') ?>">
 
 
-
 	<script src="<?php echo base_url('node_modules/jquery/dist/jquery.min.js') ?>"></script>
 	<script src="<?php echo base_url('assets/js/app.js') ?>"></script>
 
-
 </head>
-<body style="background-color: #f5f5f5;">
+<body>
 
-	<div class="top-bar mb-3">
+	<div class="top-bar mb-3 bg-danger">
 		<div class="container">
-			<div class="row py-2">
+			<div class="row py-1">
 				<div class="col-md-6">
 					<p class="mb-0" style="line-height: 30px">
 						<span id="date">
@@ -48,20 +50,20 @@
 		</div>
 	</div>
 
+
 	<div class="container mb-3">
 		<div class="row mb-3">
 			<div class="col-md-4">
 				<img src="<?php echo base_url('assets/img/logo.png') ?>" class="img-fluid mt-4" alt="">
 			</div>
-
 			<div class="col-md-6 offset-md-2">
 				<img style=" width: 100%;" src="<?php echo base_url('assets/img/header-bg-dashboard.png') ?>" class="img-fluid mt-4" alt="">
 			</div>
-
 		</div>
 
 		<div class="row">
 			<div class="col-md-12">
+
 				<nav class="navbar navbar-expand-md navbar-dark bg-primary">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -81,8 +83,6 @@
 									<a class="dropdown-item" href="<?php echo base_url('page/struktur_organisasi') ?>">Struktur Organisasi</a>
 								</div>
 							</li>
-
-
 
 							<!-- <li class="nav-item active">
 								<a class="nav-link" href="< ?php echo base_url('page/katalog') ?>">Perpustakaan</a>
@@ -135,7 +135,7 @@
 
 	{content}
 
-	<footer class="footer-section" style="padding:10px 0; background: #252525;">
+	<footer class="footer-section" style="padding:10px 0;">
 		<div class="container">
 			<!-- <div class="row">
 				<div class="col-md-4">
@@ -147,7 +147,7 @@
 					<p>Jalan Jenderal Sudirman No. 45, Telp 17081945</p>
 				</div>
 			</div> -->
-			<div class="copyright">
+			<div class="copyright text-white">
 					DPRD PROVINSI SULAWESI TENGAH, Jl. Sam Ratulangi No. 80 Palu, Sulawesi Tengah 94111
 			</div>
 		</div>
@@ -157,6 +157,9 @@
 
 
 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
 	<script src="<?php echo base_url('node_modules/popper.js/dist/umd/popper.min.js') ?>"></script>
