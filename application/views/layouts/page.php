@@ -148,7 +148,7 @@
 				</div>
 			</div> -->
 			<div class="copyright">
-					DPRD PROVINSI SULAWESI TENGAH :: Jl. Jenderal Sudirman No. 45, Telp 17081945
+					DPRD PROVINSI SULAWESI TENGAH, Jl. Sam Ratulangi No. 80 Palu, Sulawesi Tengah 94111
 			</div>
 		</div>
 	</footer>

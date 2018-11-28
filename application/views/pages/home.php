@@ -1,7 +1,6 @@
 <div class="container mb-5">
 	<div class="row">
-
-		<div class="col-md-8">
+		<div class="col-md-12">
 			<div class="owl-carousel main-carousel">
 				<?php foreach($latest_posts as $post): ?>
 					<div>
@@ -15,14 +14,11 @@
 								</div>
 								<h4><a href="<?php echo base_url('page/post/'. $post->slug) ?>"><?php echo $post->title ?></a></h4>
 							</div>
-							<img src="<?php echo base_url('uploads/featured_image/'. $post->featured_image) ?>" class="img-fluid" alt="">
-
+							<img src="<?php echo base_url('uploads/featured_image/'. $post->featured_image) ?>" class="img-fluid" style="object-fit: scale-down;" alt="">
 						</div>
 					</div>
 				<?php endforeach ?>
-
 			</div>
-
 		</div>
 
 		  <!--
@@ -32,7 +28,7 @@
 
 				<div class="list-group mb-2">
 					< ?php foreach($categories as $category): ?>
-						<a href="#" class="list-group-item list-group-item-action mb-2 bg-secondary text-white" style="font-size: 0.7rem;"><?php echo $category->title ?></a>
+						<a href="#" class="list-group-item list-group-item-action mb-2 bg-secondary text-white" style="font-size: 0.7rem;">< ?php echo $category->title ?></a>
 					< ?php endforeach ?>
 
 				</div>
