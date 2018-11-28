@@ -1,10 +1,10 @@
-<div class="container mb-5">
+<div class="container mb-12">
 	<div class="row">
-		
-		<div class="col-md-8">
-			
+
+		<div class="col-md-12">
+
 			<p class="text-muted"><?php echo $post->created_at ?></p>
-			<h3 class="mb-3"><?php echo $post->title ?></h3>
+			<h3 class="md-12"><?php echo $post->title ?></h3>
 			<img src="<?php echo base_url('uploads/featured_image/'. $post->featured_image) ?>" class="img-fluid mb-5" style="width: 100%" alt="">
 
 			<div class="content">
@@ -12,15 +12,17 @@
 			</div>
 
 		</div>
-		<div class="col-4">
+
+		<!-- <div class="col-4">
 			<h3 class="btn btn-warning btn-lg text-dark mb-0">Kategori</h3>
 			<hr>
 			<div class="list-group mb-2">
-				<?php foreach($categories as $category): ?>
+				< ?php foreach($categories as $category): ?>
 					<a href="#" class="list-group-item list-group-item-action mb-2 bg-secondary text-white" style="font-size: 0.7rem;"><?php echo $category->title ?></a>
-				<?php endforeach ?>
+				< ?php endforeach ?>
 			</div>
-		</div>
+		</div> -->
+
 		<!-- <div class="col">
 			<div class="accordion mb-2" id="accordionExample">
 				<div class="card border-warning">
@@ -105,23 +107,13 @@
 						</div>
 					</div>
 				</div>
-				
-				
+
+
 			</div>
 		</div> -->
 	</div>
 
-	
+
 
 
 </div>
-
-
-
-
-
-
-
-
-
-

@@ -5,6 +5,8 @@
 	<title>DPRD PROVINSI SULAWESI TENGAH</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/app.css') ?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/my.css') ?>">
+
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/font-awesome/css/font-awesome.min.css') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/owl.carousel/dist/assets/owl.carousel.min.css') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/owl.carousel/dist/assets/owl.theme.default.min.css') ?>">
@@ -82,8 +84,16 @@
 
 
 
-							<li class="nav-item active">
-								<a class="nav-link" href="<?php echo base_url('page/katalog') ?>">Katalog</a>
+							<!-- <li class="nav-item active">
+								<a class="nav-link" href="< ?php echo base_url('page/katalog') ?>">Perpustakaan</a>
+							</li> -->
+
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Perpustakaan</a>
+								<div class="dropdown-menu" aria-labelledby="dropdown01">
+									<a class="dropdown-item" href="<?php echo base_url('page/katalog') ?>">Katalog</a>
+									<a class="dropdown-item" href="<?php echo base_url('page/ebook') ?>">Ebook</a>
+								</div>
 							</li>
 
 							<li class="nav-item dropdown">
@@ -96,16 +106,13 @@
 
 
 
-
-
-
 							<li class="nav-item active">
 								<a class="nav-link" href="<?php echo base_url('page/informasi') ?>">Informasi</a>
 							</li>
 
-							<li class="nav-item active">
-								<a class="nav-link" href="<?php echo base_url('page/ebook') ?>">E-Book</a>
-							</li>
+							<!-- <li class="nav-item active">
+								<a class="nav-link" href="< ?php echo base_url('page/ebook') ?>">E-Book</a>
+							</li> -->
 
 
 						</ul>
@@ -128,48 +135,21 @@
 
 	{content}
 
-	<footer class="footer-section">
+	<footer class="footer-section" style="padding:10px 0; background: #252525;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<img src="<?php echo base_url('assets/img/logo-dark.png') ?>" class="img-fluid mb-3" style="margin-left: -10px;" alt="">
-				</div>
-				<!-- <div class="col-md-8">
-					<h3>Perpustakaan Digital</h3>
-					<div class="content">
-						<p>Ruang baca nyaman dan koleksi buku lengkap, Kunjungi kami di.</p>
-						<dl class="row">
-							<dt class="col-sm-3">Email</dt>
-							<dd class="col-sm-9">admin@perpustakaan.com</dd>
-
-							<dt class="col-sm-3">Phone</dt>
-							<dd class="col-sm-9">(021) 3522738</dd>
-
-							<dt class="col-sm-3">Fax</dt>
-							<dd class="col-sm-9">(021) 3522738</dd>
-
-							<dt class="col-sm-3">Address</dt>
-							<dd class="col-sm-9">Jl. Medan Merdeka Utara No. 7 Jakarta, Indonesia Kode Post: 10110</dd>
-
-
-						</dl>
-					</div>
-				</div> -->
-			</div>
 			<!-- <div class="row">
-				<div class="col-md-3">
-					<h3>Terbuka Untuk Umum</h3>
-					<p>Perpustakaan Kemendagri dibuka untuk umum, namun tetap memberlakukan sistem membership bagi pengguna yang akan melakukan transaksi pinjam meminjam buku</p>
+				<div class="col-md-4">
+					<img src="< ?php echo base_url('assets/img/logo-dark.png') ?>" class="img-fluid mb-3" style="margin-left: -10px;" alt="">
 				</div>
+			</div>
+			 <div class="row">
 				<div class="col-md-3">
-					<h3>Koleksi Ebook</h3>
-					<p>Seluruh produk perundang-undangan yang dihasilkan Kementerian Dalam Negeri telah dikonversi kedalam file E-book sehingga dapat didownload dan dimanfaatkan secara luas oleh seluruh pengunjung E-library</p>
-				</div>
-				<div class="col-md-6">
-					<h3>Perpustakaan Digital</h3>
-					<p>Penerapan teknologi informasi di perpustakaan dapat difungsikan dalam berbagai bentuk. Di antaranya sebagai sistem informasi manajemen perpustakaan. Bidang pekerjaan yang diintegrasikan dalam sistem ini adalah akuisisi, katalogisasi, sirkulasi, preservasi, dan jenis laporan lainnya yang menunjang kepentingan manajemen perpustakaan. Penerapan teklonogi informasi dapat juga dimanfaatkan sebagai sarana pendukung dalam aktivitas perpustakaan dan penyebarluasan informasi layanan perpustakaan secara ekstensif dan intensif</p>
+					<p>Jalan Jenderal Sudirman No. 45, Telp 17081945</p>
 				</div>
 			</div> -->
+			<div class="copyright">
+					DPRD PROVINSI SULAWESI TENGAH :: Jl. Jenderal Sudirman No. 45, Telp 17081945
+			</div>
 		</div>
 	</footer>
 
