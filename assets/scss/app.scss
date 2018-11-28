@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Roboto:300,400,500,700');
+
+// @import "../../node_modules/bootstrap/scss/functions";
+// @import "./variables";
+// @import "../../node_modules/bootstrap/scss/mixins";
+// @import "../../node_modules/bootstrap/scss/root";
+// @import "../../node_modules/bootstrap/scss/reboot";
+// @import "../../node_modules/bootstrap/scss/type";
+// @import "../../node_modules/bootstrap/scss/images";
+// @import "../../node_modules/bootstrap/scss/code";
+// @import "../../node_modules/bootstrap/scss/grid";
+// @import "../../node_modules/bootstrap/scss/tables";
+// @import "../../node_modules/bootstrap/scss/forms";
+// @import "../../node_modules/bootstrap/scss/buttons";
+// @import "../../node_modules/bootstrap/scss/transitions";
+// @import "../../node_modules/bootstrap/scss/dropdown";
+// @import "../../node_modules/bootstrap/scss/button-group";
+// @import "../../node_modules/bootstrap/scss/input-group";
+// @import "../../node_modules/bootstrap/scss/custom-forms";
+// @import "../../node_modules/bootstrap/scss/nav";
+// @import "../../node_modules/bootstrap/scss/navbar";
+// @import "../../node_modules/bootstrap/scss/card";
+// @import "../../node_modules/bootstrap/scss/breadcrumb";
+// @import "../../node_modules/bootstrap/scss/pagination";
+// @import "../../node_modules/bootstrap/scss/badge";
+// @import "../../node_modules/bootstrap/scss/jumbotron";
+// @import "../../node_modules/bootstrap/scss/alert";
+// @import "../../node_modules/bootstrap/scss/progress";
+// @import "../../node_modules/bootstrap/scss/media";
+// @import "../../node_modules/bootstrap/scss/list-group";
+// @import "../../node_modules/bootstrap/scss/close";
+// @import "../../node_modules/bootstrap/scss/modal";
+// @import "../../node_modules/bootstrap/scss/tooltip";
+// @import "../../node_modules/bootstrap/scss/popover";
+// @import "../../node_modules/bootstrap/scss/carousel";
+// @import "../../node_modules/bootstrap/scss/utilities";
+// @import "../../node_modules/bootstrap/scss/print";
+
+
+
+@import "./variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootswatch/dist/lumen/bootswatch";
+
+body{
+	background: $white;
+}
+
+
+
+// .banner-carousel-wrapper{
+// 	padding: 50px 0 20px 0;
+// 	background: url('../img/carousel-bg.jpg');
+// 	background-size: cover;
+// 	margin-bottom: 50px;
+// }
+
+
+
+
+
+// .banner-carousel{
+
+// }
+
+html, body{
+	height: 100%;
+}
+
+.banner-section{
+	
+	background: url('../img/carousel-bg.jpg');
+	background-size: cover;
+	padding: 150px 0 100px 0;
+
+	&__text{
+
+		&__title{
+			font-size: 2.8rem;
+			color: $white;
+		}
+
+		&__description{
+			font-size: 1rem;
+			font-weight: 400;
+			color: $white;
+			margin-bottom: 50px;
+		}
+	}
+}
+
+.carousel-section{
+	padding: 70px 0;
+}
+
+
+.about-section{
+	padding: 70px 0;
+	background: $primary;
+	color: $white;
+
+	.card{
+		color: $body-color;
+	}
+}
+
+.news-section{
+	padding: 70px 0;
+}
+
+.footer-section{
+	padding: 70px 0;
+	background: $primary;
+	color: $white;
+}
+
+.card.no-border{
+	border: 0 !important;
+}
+.card{
+
+	.card-img-wrapper{
+		height:250px;
+		position: relative;
+		overflow: hidden;
+		img{
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
+
+
+a{
+	color: darken($primary, 15);
+}
+
+
+.btn{
+	text-transform: capitalize;
+}
+
+.nav-link,
+.dropdown-item{
+	font-family: 'Noto Serif';
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.navbar.bg-primary{
+	border-color: $yellow;
+	border-bottom-width: 10px;
+}
+
+
+.card-breaking-news{
+	position: relative;
+	&__label{
+		position: absolute;
+		width: auto;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		background: $gray-800;
+		color: $white;
+		padding: 20px 20px 0 20px;
+	}
+}
+
+.top-bar{
+	background: $danger;
+	color: $white;
+}
+
+
+.main-carousel{
+	&__inner{
+		max-height: 400px;
+		overflow: hidden;
+		position: relative;
+
+		&__text{
+			padding: 20px;
+			width: 100%;
+			position: absolute;
+			bottom: 10px;
+			background: rgba(0, 0, 0, 0.8);
+			color: $white;
+
+			a{
+				color: $white;
+			}
+		}
+	}
+}
+
+.accordion{
+	.card-header{
+		.btn{
+			font-size: 1rem;
+		}
+	}
+}
+
+
+.latest-book-carousel{
+	&__inner{
+		max-height: 250px;
+		overflow: hidden;
+		position: relative;
+		display: block;
+
+
+
+		&__text{
+			text-align: center;
+			
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			background: $secondary;
+			color: $white;
+
+			a{
+				color: $white;
+			}
+
+			&__title{
+				padding-top: 10px;
+				margin: 0;
+				color: $white;
+			}
+
+			&__author{
+				padding-top: 10px;
+				padding-bottom: 10px;
+				margin: 0;
+				color: $warning;
+			}
+
+			&__meta{
+				margin: 0;
+				background: $dark;
+				color: $warning;
+				padding: 10px;
+			}
+		}
+	}
+}
+
+.post-list{
+	max-height: 400px;
+	height: 400px;
+	overflow: scroll;
+	padding: 10px;
+}
+
+.content{
+	p{
+		font-size: 1rem;
+		line-height: 1.9em;
+	}
+}

@@ -1,0 +1,261 @@
+
+
+
+
+<div class="banner-carousel-wrapper">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Perpustakaan Digital</h1>
+				<p class="lead"></p>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="owl-carousel banner-carousel mb-4">
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/3_rezeki_di_antar.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Rezeki Diantar</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Masmono</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/23_Kain_Ulos_Danau_Toba.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Kain Ulos Danau Toba</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Samuel Wattimena</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/3_rezeki_di_antar.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Rezeki Diantar</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Masmono</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/23_Kain_Ulos_Danau_Toba.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Kain Ulos Danau Toba</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Samuel Wattimena</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/3_rezeki_di_antar.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Rezeki Diantar</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Masmono</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/23_Kain_Ulos_Danau_Toba.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Kain Ulos Danau Toba</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Samuel Wattimena</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/3_rezeki_di_antar.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Rezeki Diantar</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Masmono</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/23_Kain_Ulos_Danau_Toba.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Kain Ulos Danau Toba</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Samuel Wattimena</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/3_rezeki_di_antar.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Rezeki Diantar</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Masmono</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<div class="card border-light mx-2">
+				<div class="card-img-wrapper">
+					<img src="<?php echo base_url('assets/img/book/23_Kain_Ulos_Danau_Toba.jpg.jpg') ?>" class="img-fluid" alt="">
+				</div>
+				<div class="card-body">
+					<h5 class="card-title"><a href="#">Kain Ulos Danau Toba</a></h5>
+					<dl>
+						<dt>Author</dt>
+						<dd><a href="#">Samuel Wattimena</a></dd>
+						<dt>Publisher</dt>
+						<dd><a href="#">Solusi Publishing</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card border-light">
+				<div class="card-header bg-primary text-white">
+					<h5 class="mb-0">Jumlah Koleksi Buku</h5>
+				</div>
+				<div class="card-body">
+					<h3><a href="#">3897</a></h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card border-light">
+				<div class="card-header bg-primary text-white">
+					<h5 class="mb-0">Informasi</h5>
+				</div>
+				<div class="card-body">
+					<dl>
+						<dt>Jumlah Koleksi Buku</dt>
+						<dd class="my-2"><h3><a href="#">3897</a></h3></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card border-light">
+				<div class="card-header bg-primary text-white">
+					<h5 class="mb-0">Informasi</h5>
+				</div>
+				<div class="card-body">
+					<dl>
+						<dt>Jumlah Koleksi Buku</dt>
+						<dd class="my-2"><h3><a href="#">3897</a></h3></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	$(document).ready(function(){
+	  	$(".banner-carousel").owlCarousel({
+		    loop:true,
+		    margin:0,
+		    responsiveClass:true,
+		    autoplay:true,
+		    autoplayTimeout:2000,
+		    autoplayHoverPause:true,
+		    autoplaySpeed: 2000,
+		    responsive:{
+		        0:{
+		            items:2,
+		            nav:true
+		        },
+		        600:{
+		            items:3,
+		            nav:true
+		        },
+		        1000:{
+		            items:7,
+		            nav:true
+		        }
+		    }
+		});
+	});
+</script>
