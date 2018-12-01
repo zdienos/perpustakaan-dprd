@@ -4,11 +4,10 @@
 	<meta charset="UTF-8">
 	<title>DPRD PROVINSI SULAWESI TENGAH</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/app.css') ?>">
+	<!-- link rel="stylesheet" href="< ?php echo base_url('assets/css/app.css') ?>"-->
 
-	<!--link rel="stylesheet" href="< ?php echo base_url('assets/bs-413/bootstrap.min.css') ?>"-->
-
-
+	<link rel="stylesheet" href="<?php echo base_url('assets/bs-413/bootstrap.min.css') ?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/my.css') ?>">
 
 
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/font-awesome/css/font-awesome.min.css') ?>">
@@ -51,13 +50,13 @@
 	</div>
 
 
-	<div class="container mb-3">
+	<div class="container-fluid mb-4">
 		<div class="row mb-3">
 			<div class="col-md-4">
-				<img src="<?php echo base_url('assets/img/logo.png') ?>" class="img-fluid mt-4" alt="">
+				<img src="<?php echo base_url('assets/img/logo.jpg') ?>" class="img-fluid" alt="">
 			</div>
-			<div class="col-md-6 offset-md-2">
-				<img style=" width: 100%;" src="<?php echo base_url('assets/img/header-bg-dashboard.png') ?>" class="img-fluid mt-4" alt="">
+			<div class="col-md-8">
+				<img style=" width: 100%;" src="<?php echo base_url('assets/img/header-bg-dashboard.png') ?>" class="img-fluid" alt="">
 			</div>
 		</div>
 
@@ -120,9 +119,9 @@
 				</nav>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" style="height:20px;">
 			<div class="col-md-12">
-				<div class="card card-breaking-news bg-dark text-white" style="border-top-left-radius: 0; border-top-right-radius">
+				<div class="card card-breaking-news bg-dark text-white" style="border-radius:0;">
 					<div class="card-body">
 
 						<marquee behavior="" direction="">Kemendagri Langsung Kirim Bantuan ke Lokasi Gempa di NTB |2018-08-07 00:32:58</marquee>

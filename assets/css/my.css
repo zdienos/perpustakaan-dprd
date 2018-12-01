@@ -1,4 +1,102 @@
- 
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding:0;
+}
+
+.card-body-breaking-news {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+
+}
+
+.card-breaking-news {
+    position: relative
+}
+
+.card-breaking-news__label {
+    position: absolute;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #333;
+    color: #fff;
+    /*padding: 20px 20px 0 20px;*/
+    padding: 3px 20px 0 20px;
+}
+
+
+.main-carousel__inner {
+    max-height: 400px;
+    overflow: hidden;
+    position: relative
+}
+
+.main-carousel__inner__text {
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff
+}
+
+.main-carousel__inner__text a {
+    color: #fff
+}
+
+.accordion .card-header .btn {
+    font-size: 1rem
+}
+
+.latest-book-carousel__inner {
+    max-height: 250px;
+    overflow: hidden;
+    position: relative;
+    display: block
+}
+
+.latest-book-carousel__inner__text {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+
+    color: #fff
+}
+
+.latest-book-carousel__inner__text a {
+    color: #fff
+}
+
+.latest-book-carousel__inner__text__title {
+    padding-top: 10px;
+    margin: 0;
+    color: #fff
+}
+
+.latest-book-carousel__inner__text__author {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+
+}
+
+.latest-book-carousel__inner__text__meta {
+    margin: 0;
+    background: #000;
+      color: #ffc107!important;
+          background-color: #343a40!important;
+    padding: 10px
+}
+
+.footer-section {
+    padding: 70px 0;
+    background: #0D47A1;*/
+    color: #fff;
+}
 
 .copyright {
     font-size:12px;
