@@ -4,7 +4,12 @@
 	<meta charset="UTF-8">
 	<title>:: Admin Dashboard ::</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/dashboard/app.css') ?>">
+	<!-- link rel="stylesheet" href="< ?php echo base_url('assets/css/app.css') ?>"-->
+
+	<link rel="stylesheet" href="<?php echo base_url('assets/bs-413/bootstrap.min.css') ?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/my.css') ?>">
+
+
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/font-awesome/css/font-awesome.min.css') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/bootstrap-table/dist/bootstrap-table.min.css') ?>">
 	<link rel="stylesheet" href="<?php echo base_url('node_modules/select2/dist/css/select2.min.css') ?>">
@@ -54,14 +59,14 @@
 		</div>
 	</section>
 
-	<section class="main-section bg-secondary">
+	<section class="main-section bg-light">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-2 px-0">
 					{submenu}
 				</div>
 				<div class="col-md-10 px-0 bg-white">
-					<p class="p-3 mb-0 bg-secondary">Selamat datang di automasi perpustakaan, saat ini anda login sebagai <strong><?php echo $this->session->userdata('perpustakaan_administrator')->name ?></p>
+					<p class="p-3 mb-0 bg-light">Selamat datang di automasi perpustakaan, saat ini anda login sebagai <strong><?php echo $this->session->userdata('perpustakaan_administrator')->name ?></p>
 					{content}
 				</div>
 			</div>
