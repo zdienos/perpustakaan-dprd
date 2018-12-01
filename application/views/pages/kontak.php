@@ -1,12 +1,12 @@
 <div class="container mb-5">
 	<div class="row">
-		
+
 		<div class="col-md-4">
-			
+
 			<div class="card">
-				<div class="card-body">
+				<div class="card-body" style="padding: 20px 20px;">
 					<h3 class="mb-3">Kontak</h3>
-			
+
 
 					<div class="content">
 						<p>Ruang baca nyaman dan koleksi buku lengkap, Kunjungi kami di.</p>
@@ -23,7 +23,7 @@
 							<dt class="col-sm-3">Address</dt>
 							<dd class="col-sm-9"><?php echo $kontak->address ?></dd>
 
-							
+
 						</dl>
 					</div>
 				</div>
@@ -117,23 +117,13 @@
 						</div>
 					</div>
 				</div>
-				
-				
+
+
 			</div>
 		</div> -->
 	</div>
 
-	
+
 
 
 </div>
-
-
-
-
-
-
-
-
-
-

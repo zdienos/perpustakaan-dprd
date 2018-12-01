@@ -27,7 +27,7 @@
 		<div class="container">
 			<div class="row py-1">
 				<div class="col-md-6">
-					<p class="mb-0" style="line-height: 30px">
+					<p class="mb-0" style="line-height: 38px">
 						<span id="date">
 							<?php
 							$day_index = date('w');
@@ -53,7 +53,7 @@
 	<div class="container-fluid mb-4">
 		<div class="row mb-3">
 			<div class="col-md-4">
-				<img src="<?php echo base_url('assets/img/logo.jpg') ?>" class="img-fluid" alt="">
+				<img src="<?php echo base_url('assets/img/logo.png') ?>" class="img-fluid" alt="">
 			</div>
 			<div class="col-md-8">
 				<img style=" width: 100%;" src="<?php echo base_url('assets/img/header-bg-dashboard.png') ?>" class="img-fluid" alt="">
@@ -154,15 +154,14 @@
 
 
 
+<script src="<?php echo base_url('assets/bs-413/jquery-3.3.1.slim.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/bs-413/popper.min.js') ?>"></script>
+<script src="<?php echo base_url('assets/bs-413/bootstrap.min.js') ?>"></script>
 
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!--script src="< ?php echo base_url('node_modules/popper.js/dist/umd/popper.min.js') ?>"></script>
+	<script src="< ?php echo base_url('node_modules/bootstrap/dist/js/bootstrap.min.js') ?>"></script-->
 
-
-	<script src="<?php echo base_url('node_modules/popper.js/dist/umd/popper.min.js') ?>"></script>
-	<script src="<?php echo base_url('node_modules/bootstrap/dist/js/bootstrap.min.js') ?>"></script>
 	<script src="<?php echo base_url('node_modules/owl.carousel/dist/owl.carousel.min.js') ?>"></script>
 	<script src="<?php echo base_url('node_modules/bootstrap-table/dist/bootstrap-table.min.js') ?>"></script>
 	<script src="<?php echo base_url('node_modules/bootstrap-table/dist/locale/bootstrap-table-en-US.min.js') ?>"></script>

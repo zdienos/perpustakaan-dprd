@@ -8,7 +8,7 @@
 							<div class="main-carousel__inner__text">
 								<div class="btn-group mb-2" role="group">
 									<?php foreach($post->categories as $category): ?>
-										<a href="#" class="btn btn-warning text-dark"><?php echo $category->title ?></a>
+										<a href="<?php echo base_url('page/post/'. $post->slug) ?>" class="btn btn-warning text-dark"><?php echo $category->title ?></a>
 									<?php endforeach ?>
 									<button type="button" class="btn btn-secondary bg-dark border-dark text-warning"><?php echo $post->created_at ?></button>
 								</div>
@@ -44,7 +44,7 @@
 			<div class="owl-carousel latest-book-carousel">
 				<?php if($catalogs): foreach($catalogs as $catalog): ?>
 					<div>
-						<a href="#" class="latest-book-carousel__inner" style="height: 30vh;">
+						<a href="<?php echo base_url('page/katalog_detail/'. $catalog->id) ?>" class="latest-book-carousel__inner" style="height: 30vh;">
 							<div class="latest-book-carousel__inner__text">
 								<h6 class="latest-book-carousel__inner__text__title"><?php echo $catalog->title ?></h6>
 								<p class="latest-book-carousel__inner__text__author"></p>

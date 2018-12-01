@@ -1,12 +1,12 @@
 <div class="container mb-5">
 	<div class="row">
-		
+
 		<div class="col-md-8">
-			
+
 			<div class="card">
-				<div class="card-body">
+				<div class="card-body" style="padding: 20px 20px;">
 					<h3 class="mb-3">Tugas dan Fungsi</h3>
-			
+
 
 					<div class="content">
 						<?php echo $tugas_dan_fungsi ?>
@@ -108,23 +108,13 @@
 						</div>
 					</div>
 				</div>
-				
-				
+
+
 			</div>
 		</div> -->
 	</div>
 
-	
+
 
 
 </div>
-
-
-
-
-
-
-
-
-
-

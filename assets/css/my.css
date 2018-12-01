@@ -1,3 +1,11 @@
+.h4, h4, .h5, h5 {
+    font-size: 1.1rem;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -25,6 +33,30 @@
     /*padding: 20px 20px 0 20px;*/
     padding: 3px 20px 0 20px;
 }
+
+
+.card.no-border {
+    border: 0!important
+}
+
+.card .card-img-wrapper {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-img-wrapper img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
 
 
 .main-carousel__inner {
@@ -100,4 +132,43 @@
 
 .copyright {
     font-size:12px;
+}
+
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1400px
+    }
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.text-muted{
+  margin-bottom:0.1rem;
 }

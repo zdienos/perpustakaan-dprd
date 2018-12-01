@@ -1,10 +1,10 @@
 <div class="container mb-5">
 	<div class="row">
-		
+
 		<div class="col-md-4">
 			<div class="card">
-			
-				<div class="card-body">
+
+				<div class="card-body" style="padding: 20px 20px;">
 					<h5 class="card-title">Jumlah Koleksi Buku</h5>
 					<h2 class="card-title"><?php echo $this->Collectionmodel->count() ?></h2>
 					<p class="card-text"><small class="text-muted">Update Terakhir : <?php echo $this->Collectionmodel->get_updated_at() ?></small></p>
@@ -13,7 +13,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-				<div class="card-body">
+				<div class="card-body" style="padding: 20px 20px;">
 					<h5 class="card-title mb-0">Jam Pelayanan</h5>
 				</div>
 				<ul class="list-group list-group-flush">
@@ -24,13 +24,13 @@
 					<li class="list-group-item">Jum'at: 08.00 - 17:00</li>
 					<!-- <li class="list-group-item">Sabtu: 08.00 - 17:00</li> -->
 				</ul>
-				
+
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-			
-				<div class="card-body">
+
+				<div class="card-body" style="padding: 20px 20px;">
 					<h5 class="card-title">Ketentuan Peminjaman</h5>
 					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad praesentium nostrum quidem omnis alias, iure nam eveniet laudantium enim dignissimos ratione, voluptas natus repudiandae, recusandae. Dolorum incidunt, sapiente explicabo voluptate!</p>
 					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad praesentium nostrum quidem omnis alias, iure nam eveniet laudantium enim dignissimos ratione, voluptas natus repudiandae, recusandae. Dolorum incidunt, sapiente explicabo voluptate!</p>
@@ -121,8 +121,8 @@
 						</div>
 					</div>
 				</div>
-				
-				
+
+
 			</div>
 		</div> -->
 	</div>
@@ -145,7 +145,7 @@
 						</a>
 					</div>
 				<?php endforeach; endif; ?>
-				
+
 			</div>
 
 		</div>
@@ -166,7 +166,7 @@
 						</div>
 					</li>
 				<?php endforeach; endif; ?>
-				
+
 			</ul>
 		</div>
 		<div class="col-md-4">
@@ -186,7 +186,7 @@
 		</div>
 		<div class="col-md-4">
 			<h3>GALERI PHOTO</h3>
-			
+
 			<div class="row">
 				<div class="col-sm-2 px-1">
 					<a href="<?php echo base_url('assets/img/gallery/325.jpg') ?>" data-lightbox="image-325">
@@ -210,7 +210,7 @@
 				</div>
 
 			</div>
-			
+
 		</div>
 	</div>
 
@@ -248,7 +248,7 @@
 		        }
 		    }
 		});
-		
+
 		$(".latest-book-carousel").owlCarousel({
 		    loop:true,
 		    margin:10,

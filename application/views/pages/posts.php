@@ -1,7 +1,5 @@
 
 
-
-
 <div class="latest-news-section">
 	<div class="container">
 		<div class="row">
@@ -13,7 +11,7 @@
 								<div class="card-img-wrapper">
 									<img src="<?php echo base_url('uploads/featured_image/'. $post->featured_image) ?>" alt="">
 								</div>
-								<div class="card-body">
+								<div class="card-body" style="padding: 5px 10px;">
 									<h4><a href="<?php echo base_url('page/post/'. $post->slug) ?>"><?php echo $post->title ?></a></h4>
 									<p class="text-muted mb-1"><small>Author: <a href="#">Administrator</a>, Created at: <?php echo $post->created_at ?></small></p>
 									<p class="text-muted"><small>Category : <a href="#">lorem</a>, <a href="#">ipsum</a></small></p>

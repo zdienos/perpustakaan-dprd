@@ -1,10 +1,10 @@
 <div class="container mb-5">
 	<div class="row">
-		
+
 		<div class="col-md-12">
-			
+
 			<div class="card">
-				<div class="card-body">
+				<div class="card-body" style="padding: 20px 20px;">
 					<h3 class="mb-3">Buku Tamu</h3>
 
 					<p>Buat Kami saran dan komentar dari semua pihak sangat bermanfaat untuk perkembangan situs web ini kami ingin mendapatkan masukan positif dan konstruktif.</p>
@@ -31,8 +31,8 @@
 								</div>
 							</div>
 						</div>
-						
-						
+
+
 						<button type="submit" class="btn btn-primary btn-lg py-3 btn-block">Kirim</button>
 					</form>
 				</div>
@@ -41,17 +41,7 @@
 		</div>
 	</div>
 
-	
+
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
