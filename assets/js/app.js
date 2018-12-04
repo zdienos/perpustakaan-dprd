@@ -1,6 +1,6 @@
 
 var base_url = function(uri = ''){
-	var base = 'http://sirbalami.co.id/';
+	var base = 'http://perpustakaan-dprd/';
 	return base + uri;
 };
 
